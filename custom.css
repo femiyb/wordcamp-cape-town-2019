@@ -3988,7 +3988,7 @@ p.site-description {
 }
 
 .site-header {
-	background-image: url('https://2018.capetown.wordcamp.org/files/2018/08/WCCT-Header.jpg');
+	background-image: url('https://2019.capetown.wordcamp.org/files/2019/05/background-elements.jpg');
 	background-position: 50% 50%;
 	background-size: cover;
 }
@@ -4045,4 +4045,20 @@ p.site-description {
 	#menu-item-454 > ul {
     top: 2em;
 	}
+}
+
+
+@media(min-width: 48em){
+#primary-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+#primary-menu ul {
+list-style: none;
+    padding: 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
