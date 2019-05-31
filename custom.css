@@ -2995,11 +2995,14 @@ div.googlemaps iframe {
 }
 
 .jetpack_subscription_widget:before {
-	/*background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');*/
-	background-color: #2d282d !important;
+	background-color: #242021 !important;
 	background-size: 120px;
 	background-attachment: fixed;
 	background-position: 50% 0;
+}
+
+section#milestone_widget-2:before {
+    background: #242021e8 !important;
 }
 
 .jetpack_subscription_widget .widget-title {
@@ -3899,25 +3902,14 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
-li#menu-item-454 {
-    background: #fff !important;
-}
 
-#menu-item-454 > a {
-    background: #fff !important;
-    color: #000;
-}
 
 
 strong.event {
     color: #fff;
 }
 
-.page-navigation-container .menu {
-    margin: 0 auto;
-    width: fit-content;
-    width: -moz-fit-content;
-}
+
 
 #book-button {
     display: block;
@@ -3932,9 +3924,7 @@ strong.event {
     border-radius: 2px;
 }
 
-.page-navigation-container ul ul a {
-    width: auto;
-}
+
 
 
 .home .site-header .site-branding:before {
@@ -3954,15 +3944,36 @@ strong.event {
     border: 0px;
 }
 
+/*
 .page-navigation-container ul ul {
     top: 3.9em;
+}
+
+.page-navigation-container ul ul a {
+    width: auto;
+}
+
+.page-navigation-container .menu {
+    margin: 0 auto;
+    width: fit-content;
+    width: -moz-fit-content;
 }
 
 #menu-item-454 > ul {
     top: 4em;
     box-shadow: none;
     background: no-repeat;
+
+    li#menu-item-454 {
+    background: #fff !important;
 }
+
+#menu-item-454 > a {
+    background: #fff !important;
+    color: #000;
+}
+}
+*/
 
 
 p.site-description {
@@ -4005,14 +4016,11 @@ p.site-description {
 	margin-bottom: 1rem;
 	margin-left: auto;
 	margin-right: auto;
-	width: 810px;
+	/*width: 810px; */
 	visibility: visible;
 }
 
-.site-title a {
-	visibility: hidden;
-}
-
+/*
 @media (max-width: 37.4375em){
 .sub-menu a {
     padding-left: 2.5rem;
@@ -4031,10 +4039,10 @@ p.site-description {
     width: 200px !important;
 }
 }
+*/
 
 
-
-
+// 2019 css starts here
 @media(max-width: 890px){
 	.site-title a::before{
 		width: auto;
@@ -4065,4 +4073,41 @@ list-style: none;
 
 nav#site-navigation {
     background: #242021;
+}
+
+
+section#milestone_widget-2:before {
+    background: #242021e8 !important;
+}
+
+@media (min-width: 48em){
+.menu, .menu>li>a {
+    display: -ms-flexbox;
+    display: flex;
+     -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+}
+
+@media (min-width: 48em){
+.menu-item {
+    margin: 0 .0625rem;
+    display: inline-block;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.33333em;
+    text-align: center;
+}
+}
+
+.menu-item {
+    position: relative;
+    margin: 0;
+    display: block;
+    font-family: Bree Serif, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
 }
