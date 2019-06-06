@@ -4135,7 +4135,7 @@ section#milestone_widget-2:before {
 
 .menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
 	color: hsla(0,0%,100%,.9);
-	background-color: #db0577;
+	background-color: #069ca6;
 }
 
 @media (min-width:48em) {
@@ -4156,7 +4156,7 @@ section#milestone_widget-2:before {
 
 .current-menu-item>a {
 	color: hsla(0,0%,100%,.9);
-	background-color: #db0577;
+	background-color: #069ca6;
 }
 
 .menu-item-has-children .dropdown-toggle {
@@ -4184,7 +4184,7 @@ section#milestone_widget-2:before {
 	
 	.menu-item-has-children.focus>a,.menu-item-has-children:hover>a {
 		color: hsla(0,0%,100%,.9);
-		background-color: #db0577;
+		background-color: #069ca6;
 	}
 	
 	.menu-item-has-children.focus>a:after,.menu-item-has-children:hover>a:after {
@@ -4242,7 +4242,7 @@ section#milestone_widget-2:before {
 		left: -999em;
 		z-index: 310;
 		min-width: 16.25rem;
-		background-color: #db0577;
+		background-color: #069ca6;
 		border-bottom: 1px solid hsla(0,0%,100%,.4);
 	}
 	
