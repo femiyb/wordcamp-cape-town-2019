@@ -1168,13 +1168,11 @@ pre code {
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: fixed;
-	background-image: url('https://2018.capetown.wordcamp.org/files/2018/07/Conference.jpg');
 	transition: all .15s ease;
 }
 
 @media (min-width:48em) {
 	.site-header {
-		background-image: url('https://2018.capetown.wordcamp.org/files/2018/07/Conference.jpg');
 		background-position: 50% 50%;
 		background-size: cover;
 	}
@@ -3975,12 +3973,11 @@ strong.event {
 
 
 p.site-description {
-    background: #fff;
-    width: fit-content;
-    width: -moz-fit-content;
-    margin: 0 auto;
-    padding: 10px;
-    color: #0cafa9;
+	background: #099ca6 none repeat scroll 0 0;
+	color: #ffffff;
+	margin: 0 auto;
+	padding: 10px;
+	width: -moz-fit-content;
 }
 
 .button, button, input[type=button], input[type=reset], input[type=submit] {
@@ -3997,24 +3994,23 @@ p.site-description {
 }
 
 .site-header {
-	background-image: url('https://2019.capetown.wordcamp.org/files/2019/05/background-elements.jpg');
+	background-image: url('https://2019.capetown.wordcamp.org/files/2019/06/Header.jpg');
 	background-position: 50% 50%;
 	background-size: cover;
 }
 
-
 .site-title a::before {
-	background-image: url('https://wcctp2.files.wordpress.com/2019/04/wcct-2019-logo-white.jpg');
+	background-image: url('https://2019.capetown.wordcamp.org/files/2019/06/Logo.png');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	content: "";
 	display: block;
-	height: 180px;
-	margin-bottom: 1rem;
+	height: 250px;
+	width: 500px;
+	margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
-	/*width: 810px; */
 	visibility: visible;
 }
 
@@ -4270,4 +4266,16 @@ section#milestone_widget-2:before {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
 	}
+}
+
+
+.site-header::before {
+	background-color: rgba(45,40,45,0.6);
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
 }
